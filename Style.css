@@ -1,0 +1,165 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: radial-gradient(circle at top, #141414, #000);
+  color: #f2f2f2;
+  line-height: 1.8;
+  padding: 60px 30px;
+}
+
+/* HEADER */
+.header-box {
+  max-width: 900px;
+  margin: 0 auto 80px auto;
+  text-align: center;
+  padding: 28px 20px;
+  background: rgba(255, 255, 255, 0.04); /* highlighted */
+  border-radius: 14px;
+}
+
+/* NAME (HIGHLIGHTED) */
+.header-box h1 {
+  font-size: 42px;
+  font-weight: 800;
+  color: #e2e2e2;
+  margin-bottom: 10px;
+  transition: color 0.3s ease;
+}
+
+.header-box h1:hover {
+  color: #00e5ff;
+}
+
+/* ROLE */
+.header-box .role {
+  font-size: 17px;
+  color: #c2c2c2;
+  margin-bottom: 14px;
+}
+
+/* CONTACT CONTAINER */
+.header-box .contact {
+  display: inline-block;
+  padding: 8px 14px;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 20px;
+}
+
+/* CONTACT LINKS */
+.header-box .contact a {
+  color: #cfcfcf;
+  text-decoration: none;
+  margin: 0 8px;
+  font-size: 15px;
+  transition: color 0.3s ease;
+}
+
+.header-box .contact a:hover {
+  color: #00e5ff;
+}
+
+/* SECTIONS */
+.section {
+  max-width: 900px;
+  margin: 0 auto 65px auto;
+}
+
+/* MAIN SECTION HEADINGS — FULL WIDTH */
+.section h2 {
+  display: block;
+  width: 100%;
+  font-size: 22px;
+  font-weight: 800;
+  color: #e5e5e5;
+  background: rgba(255, 255, 255, 0.06);
+  padding: 12px 18px;
+  border-radius: 10px;
+  margin-bottom: 22px;
+  transition: color 0.3s ease, background 0.3s ease;
+}
+
+.section h2:hover {
+  color: #00e5ff;
+  background: rgba(0, 229, 255, 0.12);
+}
+
+/* PROJECT / INTERNSHIP SUBHEADINGS — FULL WIDTH */
+.section h3 {
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 700;
+  color: #f2f2f2;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 10px 16px;
+  border-radius: 8px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  transition: color 0.3s ease, background 0.3s ease;
+}
+
+.section h3:hover {
+  color: #00e5ff;
+  background: rgba(0, 229, 255, 0.12);
+}
+
+/* SKILL TAGS — FULL WIDTH */
+.skill-tag {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 700;
+  color: #f2f2f2;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 10px 16px;
+  border-radius: 8px;
+  margin: 14px 0 8px;
+  transition: color 0.3s ease, background 0.3s ease;
+}
+
+.skill-tag:hover {
+  color: #00e5ff;
+  background: rgba(0, 229, 255, 0.12);
+}
+
+/* TEXT */
+.section p {
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: #e6e6e6;
+}
+
+/* LISTS */
+.section ul {
+  padding-left: 22px;
+}
+
+.section li {
+  font-size: 16px;
+  margin-bottom: 9px;
+  color: #e6e6e6;
+}
+
+/* LINKS */
+.section a {
+  color: #9adfff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.section a:hover {
+  color: #00e5ff;
+}
+
+/* STRONG TEXT */
+strong {
+  color: #ffffff;
+  font-weight: 700;
+}
